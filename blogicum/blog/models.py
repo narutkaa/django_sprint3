@@ -26,7 +26,9 @@ class Category(BaseModel):
         "Заголовок", max_length=256, help_text="Введите заголовок категории."
     )
     description = models.TextField(
-        "Описание", blank=True, help_text="Добавьте описание категории (необязательно)."
+        "Описание",
+        blank=True,
+        help_text="Добавьте описание категории (необязательно)."
     )
     slug = models.SlugField(
         "Идентификатор",
