@@ -118,7 +118,6 @@ class Post(BaseModel):
             category__is_published=True
         )
 
-
     class Meta:
         verbose_name = "публикация"
         verbose_name_plural = "Публикации"
